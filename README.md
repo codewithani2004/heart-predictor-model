@@ -1,5 +1,10 @@
 # ❤️ Heart Disease Prediction App
 
+<h2 align="center">❤️ Heart Disease Prediction App</h2>
+
+<p align="center">
+An intelligent and responsive Heart Disease Prediction system built using React, FastAPI, and MongoDB 🚀
+</p>
 <p align="center">
   <a href="https://heart-predicton.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=netlify" alt="Live Demo" />

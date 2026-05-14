@@ -50,58 +50,21 @@ const HeartResult = () => {
   useEffect(() => {
     if (!form) return;
 
-    // const fetchPrediction = async () => {
-    //   try {
-    //     const API_URL = process.env.REACT_APP_API_URL;
-    //     const response = await fetch(`${API_URL}/predict`, {
-    //       method: "POST",
-    //       headers: { "Content-Type": "application/json" },
-    //       body: JSON.stringify(form),
-    //     });
-    //     setPrediction(await response.json());
-    //   } catch {
-    //     setPrediction(null);
-    //   } finally {
-    //     setLoading(false);
-    //   }
-    // };
     const fetchPrediction = async () => {
-  try {
-    const response = await fetch("http://127.0.0.1:8000/predict", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        age: Number(form.age),
-        sex: Number(form.sex),
-        cp: Number(form.cp),
-        trestbps: Number(form.trestbps),
-        chol: Number(form.chol),
-        fbs: Number(form.fbs),
-        restecg: Number(form.restecg),
-        thalach: Number(form.thalach),
-        exang: Number(form.exang),
-        oldpeak: Number(form.oldpeak),
-        slope: Number(form.slope),
-        ca: Number(form.ca),
-        thal: Number(form.thal),
-      }),
-    });
-
-    const data = await response.json();
-
-    console.log("Prediction Response:", data);
-
-    setPrediction(data);
-
-  } catch (err) {
-    console.log("API Error:", err);
-    setPrediction(null);
-  } finally {
-    setLoading(false);
-  }
-};
+      try {
+        const API_URL = process.env.REACT_APP_API_URL;
+        const response = await fetch(`${API_URL}/predict`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(form),
+        });
+        setPrediction(await response.json());
+      } catch {
+        setPrediction(null);
+      } finally {
+        setLoading(false);
+      }
+    };
 
     fetchPrediction();
   }, [form]);

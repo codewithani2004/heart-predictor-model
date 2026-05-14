@@ -17,7 +17,7 @@ An intelligent and responsive Heart Disease Prediction system built using React,
 
 ## 🌐 Live Demo
 
-[Click here to view the app] : (https://heart-predicton.netlify.app/)
+ 👉 [Click here to view the app] : (https://heart-predicton.netlify.app/)
 
 
 ## ✨ Features
@@ -47,7 +47,7 @@ An intelligent and responsive Heart Disease Prediction system built using React,
 - 🎨 Frontend: React, HTML, CSS, JavaScript  
 - ⚙️ Backend: Python, FastAPI, Uvicorn  
 - 🗄️ Database: MongoDB (NoSQL)
-
+- ☁️ Deployment: Netlify (Frontend), Render (Backend)  
 
 
 

@@ -47,6 +47,6 @@ Thumbs.db
 *.swp
 *.swo
 export/
-package.json
-package-lock.json
+# package.json
+# package-lock.json
 

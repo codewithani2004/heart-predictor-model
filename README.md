@@ -10,7 +10,7 @@
   </a>
 </p>
 
-## 🌐 Live Demo: 
+## 🌐 Live Demo
 
 [Click here to view the app] : (https://heart-predicton.netlify.app/)
 
@@ -25,3 +25,38 @@
 - 📊 Export stored prediction data to CSV for analysis  
 - 🔗 Seamless integration between React frontend and backend API  
 - 🚀 Fast and responsive UI for better user experience  
+
+
+
+## 🏆 Achievements
+
+- 🤖 Successfully integrated ML model with FastAPI  
+- 🔗 Connected React frontend with backend API  
+- 🗄️ Implemented MongoDB for data persistence  
+- 📊 Enabled CSV export for stored prediction data  
+- ⚡ Improved real-time prediction system
+
+
+## 🛠️ Tech Stack
+
+- 🎨 Frontend: React, HTML, CSS, JavaScript  
+- ⚙️ Backend: Python, FastAPI, Uvicorn  
+- 🗄️ Database: MongoDB (NoSQL)
+
+
+
+
+ ## 🚀 Getting Started 
+ 
+### Run The  Backend First
+
+```bash
+cd backend
+.\.venv\Scripts\Activate.ps1
+uvicorn uvicorn_app:app --reload
+
+### Run The Frontend Next
+cd frontend
+npm install
+npm start
+```

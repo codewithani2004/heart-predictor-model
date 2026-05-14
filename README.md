@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Prediction App
 
-<h2 align="center">❤️ Heart Disease Prediction App</h2>
+<h2 align="center">💓AI-Powered Heart Disease Prediction System</h2>
 
 <p align="center">
 An intelligent and responsive Heart Disease Prediction system built using React, FastAPI, and MongoDB 🚀
@@ -53,9 +53,8 @@ An intelligent and responsive Heart Disease Prediction system built using React,
 
  ## 🚀 Getting Started 
  
+ ```bash
 ### Run The  Backend First
-
-```bash
 cd backend
 .\.venv\Scripts\Activate.ps1
 uvicorn uvicorn_app:app --reload
